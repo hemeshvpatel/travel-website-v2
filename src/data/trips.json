@@ -1,0 +1,26 @@
+[
+  {
+    "img": "../assets/images/Bali.jpg",
+    "alt": "Bali",
+    "name": "Bali",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/Thailand.jpg",
+    "alt": "Thailand",
+    "name": "Thailand",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/Paris.jpg",
+    "alt": "Paris",
+    "name": "Paris",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/Spain.jpg",
+    "alt": "Spain",
+    "name": "Spain",
+    "button": "View Destination"
+  }
+]
