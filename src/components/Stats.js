@@ -4,7 +4,7 @@ import { StatsData } from "../data/StatsData"
 
 const Stats = () => {
   return (
-    <StatsContainer>
+    <StatsContainer id="stats">
       <Heading>Why Choose Us?</Heading>
       <Wrapper>
         {StatsData.map((item, index) => {

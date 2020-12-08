@@ -27,7 +27,7 @@ export const Trips = ({ heading }) => {
     }
   `)
 
-  function getTrips(data) {
+  const getTrips = data => {
     const tripsArray = []
     data.allTripsJson.edges.forEach((item, index) => {
       tripsArray.push(
@@ -61,7 +61,7 @@ export const Trips = ({ heading }) => {
   }
 
   return (
-    <ProductsContainer>
+    <ProductsContainer id="trips">
       <ProductsHeading>{heading}</ProductsHeading>
       <ProductsWrapper>{getTrips(data)}</ProductsWrapper>
     </ProductsContainer>

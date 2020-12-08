@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer id="footer">
       <FooterLinksWrapper>
         <FooterDescription>
           <h1>Explorix</h1>
@@ -43,7 +43,7 @@ export default Footer
 const FooterContainer = styled.div`
   padding: 5rem calc((100vw - 1100px) / 2);
   display: grid;
-  grid-template-columns: repeat (2, 1fr);
+  grid-template-columns: 1fr 1fr;
   color: #000;
   background: #fafafb;
 `
@@ -52,7 +52,7 @@ const FooterDescription = styled.div`
   padding: 0 2rem;
 
   h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     color: #f26a2e;
   }
 
@@ -73,7 +73,7 @@ const FooterLinksWrapper = styled.div`
 const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
-  aling-items: start;
+  align-items: flex-start;
   padding: 1rem 2rem;
 
   @media screen and (max-width: 400px) {

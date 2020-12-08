@@ -5,7 +5,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io"
 import { FaRegLightbulb } from "react-icons/fa"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Testimonials() {
+const Testimonials = () => {
   const data = useStaticQuery(graphql`
     {
       allFile(
