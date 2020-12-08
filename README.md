@@ -1,3 +1,8 @@
+Live Demo:
+
+Hosted with Netlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/82921e42-3407-46f9-9d34-a7924318b3d0/deploy-status)](https://app.netlify.com/sites/travel-website-v2/deploys)
+
 Travel Video by Tom Fisk from Pexels
 Bali Photo by VisionPic .net from Pexels
 Thailand Photo by Ivica Džambo from Pexels

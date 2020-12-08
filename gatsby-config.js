@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Travel Website`,
     description: `Travel website showcasing the best travel destinations and deals online.`,
-    author: `@gatsbyjs`,
+    author: `https://hemeshpatel.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,7 +32,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/travel-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-transformer-json`,
