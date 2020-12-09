@@ -11,3 +11,7 @@ Spain Photo by Tomáš Malík from Pexels
 Testimonial-1 Photo by Javon Swaby from Pexels
 Testimonial-2 Photo by Zachary DeBottis from Pexels
 Email-1 Photo by Lucas Meneses from Pexels
+About Photo by Chris Janda from Pexels
+Gallery Photo by Matheus Viana from Pexels
+Travel Photo by Element5 Digital from Pexels
+Book a Flight Photo by Anugrah Lohiya from Pexels

@@ -9,7 +9,7 @@ import { Button } from "./Button"
 const Header = () => {
   return (
     <Nav>
-      <NavLink to="/">EXPLORIX</NavLink>
+      <NavCompany to="/">EXPLORIX</NavCompany>
       <Bars />
       <NavMenu>
         {menuData.map((item, index) => (
@@ -19,7 +19,7 @@ const Header = () => {
         ))}
       </NavMenu>
       <NavBtn>
-        <Button primary="true" round="true" href="#trips">
+        <Button primary="true" round="true" href="/bookaflight">
           Book a Flight
         </Button>
       </NavBtn>
@@ -39,6 +39,17 @@ const Nav = styled.nav`
   padding: 0.5rem calc((100vw - 1300px) / 2);
   z-index: 100;
   position: relative;
+`
+
+const NavCompany = styled(Link)`
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
 `
 
 const NavLink = styled(Link)`
@@ -61,7 +72,7 @@ const Bars = styled(FaBars)`
     top: 0;
     right: 0;
     transform: translate(-100%, 75%);
-    font-size: 0.8rem;
+    font-size: 1.8rem;
     cursor: pointer;
   }
 `
