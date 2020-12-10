@@ -15,3 +15,9 @@ About Photo by Chris Janda from Pexels
 Gallery Photo by Matheus Viana from Pexels
 Travel Photo by Element5 Digital from Pexels
 Book a Flight Photo by Anugrah Lohiya from Pexels
+
+Gallery Images:
+Photo by Taryn Elliott from Pexels
+Photo by David Bartus from Pexels
+Photo by Thorsten technoman from Pexels
+Photo by Mike van Schoonderwalt from Pexels
