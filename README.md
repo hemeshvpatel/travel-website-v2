@@ -21,3 +21,4 @@ Photo by Taryn Elliott from Pexels
 Photo by David Bartus from Pexels
 Photo by Thorsten technoman from Pexels
 Photo by Mike van Schoonderwalt from Pexels
+Photo by The Lazy Artist Gallery from Pexels
