@@ -1,24 +1,24 @@
 import React from "react"
 import styled from "styled-components"
 import Background from "../assets/images/gallery-background.jpg"
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
 import { GlobalStyle } from "../components/styles/GlobalStyles"
 import Footer from "../components/Footer"
 
 const gallery = () => {
   return (
-    <AboutContainer>
+    <Container>
       <GlobalStyle />
-      <Header />
+      <Navbar />
       <AboutTagline>Gallery</AboutTagline>
       <Footer />
-    </AboutContainer>
+    </Container>
   )
 }
 
 export default gallery
 
-const AboutContainer = styled.div`
+const Container = styled.div`
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.5) 0%,

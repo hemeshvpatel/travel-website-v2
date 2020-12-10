@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Background from "../assets/images/bookaflight-background.jpg"
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
 import { GlobalStyle } from "../components/styles/GlobalStyles"
 import Footer from "../components/Footer"
 
@@ -9,7 +9,7 @@ const bookaflight = () => {
   return (
     <AboutContainer>
       <GlobalStyle />
-      <Header />
+      <Navbar />
       <AboutTagline>Book a Flight</AboutTagline>
       <Footer />
     </AboutContainer>

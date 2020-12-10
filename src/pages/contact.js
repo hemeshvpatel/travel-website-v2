@@ -1,24 +1,24 @@
 import React from "react"
 import styled from "styled-components"
 import Background from "../assets/images/contact-background.jpg"
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
 import { GlobalStyle } from "../components/styles/GlobalStyles"
 import Footer from "../components/Footer"
 
 const contact = () => {
   return (
-    <AboutContainer>
+    <Container>
       <GlobalStyle />
-      <Header />
+      <Navbar />
       <AboutTagline>Contact</AboutTagline>
       <Footer />
-    </AboutContainer>
+    </Container>
   )
 }
 
 export default contact
 
-const AboutContainer = styled.div`
+const Container = styled.div`
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.5) 0%,

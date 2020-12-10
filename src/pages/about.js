@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Background from "../assets/images/about-background.jpg"
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
 import { GlobalStyle } from "../components/styles/GlobalStyles"
 import Footer from "../components/Footer"
 
@@ -9,7 +9,7 @@ const about = () => {
   return (
     <AboutContainer>
       <GlobalStyle />
-      <Header />
+      <Navbar />
       <AboutTagline>About</AboutTagline>
       <Footer />
     </AboutContainer>

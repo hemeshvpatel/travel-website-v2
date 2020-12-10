@@ -1,24 +1,24 @@
 import React from "react"
 import styled from "styled-components"
 import Background from "../assets/images/trips-background.jpg"
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
 import { GlobalStyle } from "../components/styles/GlobalStyles"
 import Footer from "../components/Footer"
 
 const trips = () => {
   return (
-    <AboutContainer>
+    <Container>
       <GlobalStyle />
-      <Header />
+      <Navbar />
       <AboutTagline>Trips</AboutTagline>
       <Footer />
-    </AboutContainer>
+    </Container>
   )
 }
 
 export default trips
 
-const AboutContainer = styled.div`
+const Container = styled.div`
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.5) 0%,
