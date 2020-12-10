@@ -41,7 +41,7 @@ const Contact = () => {
         <form
           name="contact"
           method="post"
-          action="/thanks/"
+          action="/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
@@ -78,9 +78,7 @@ const Contact = () => {
             </p>
             <p>
               <br />
-              <Button primary="true" big="true" round="true" type="submit">
-                Send
-              </Button>
+              <button type="submit">Send</button>
             </p>
           </FormWrap>
         </form>
@@ -154,6 +152,26 @@ const ContactContent = styled.div`
     font-size: clamp(1rem, 2.5vw, 1.5rem);
     padding: 1 1rem;
     margin-bottom: 3rem;
+  }
+
+  button {
+    background: #f26a2e;
+    white-space: nowrap;
+    padding: 10px 32px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    min-width: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s !important;
+    border-radius: 50px;
+
+    &:hover {
+      background: #077bf1;
+      transform: translateY(-2px);
+    }
   }
 
   form {
