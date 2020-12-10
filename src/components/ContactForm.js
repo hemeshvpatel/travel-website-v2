@@ -36,8 +36,8 @@ const Contact = () => {
     <ContactContainer>
       <ContactBackground />
       <ContactContent>
-        <h1>Interested in working with me?</h1>
-        <p>Submit the form below and I will be in touch!</p>
+        <h1>Interested in working with us?</h1>
+        <h3>Submit the form below and we will be in touch!</h3>
         <form
           name="contact"
           method="post"
@@ -77,6 +77,7 @@ const Contact = () => {
               </label>
             </p>
             <p>
+              <br />
               <Button primary="true" big="true" round="true" type="submit">
                 Send
               </Button>
@@ -141,11 +142,18 @@ const ContactContent = styled.div`
     padding: 0 1rem;
   }
 
-  p {
+  h3 {
     text-align: center;
-    font-size: clamp(1re, 2.5vw, 1.5rem);
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
     padding: 0 1rem;
     margin-bottom: 2rem;
+  }
+
+  p {
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    padding: 1 1rem;
+    margin-bottom: 3rem;
   }
 
   form {
@@ -157,9 +165,8 @@ const FormWrap = styled.div`
   input {
     padding: 1rem 1.5rem;
     outline: none;
-    width: 350px;
-    height: 48px;
-    border-radius: 50px;
+    width: 400px;
+    height: 50px;
     border: none;
     margin-right: 1rem;
   }
@@ -167,9 +174,8 @@ const FormWrap = styled.div`
   textarea {
     padding: 1rem 1.5rem;
     outline: none;
-    width: 350px;
-    height: 96px;
-    border-radius: 50px;
+    width: 400px;
+    height: 100px;
     border: none;
     margin-right: 1rem;
   }
@@ -180,6 +186,12 @@ const FormWrap = styled.div`
     padding: 0 1rem;
 
     input {
+      margin-bottom: 1rem;
+      width: 100%;
+      margin-right: 0;
+    }
+
+    textarea {
       margin-bottom: 1rem;
       width: 100%;
       margin-right: 0;

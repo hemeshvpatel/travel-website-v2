@@ -73,7 +73,6 @@ const Nav = styled.nav`
 
   @media screen and (max-width: 960px) {
     background: ${({ click }) => (click ? "#1f1f1f" : "transparent")};
-    opacity: 0.8;
     transition: 0.8s all ease;
   }
 `
@@ -159,7 +158,7 @@ const NavMenu = styled.ul`
     height: 90vh;
     position: absolute;
     top: ${({ click }) => (click ? "100%" : "-1000px")};
-    opacity: 0.8;
+    opacity: 1;
     transition: all 0.2s ease;
     background: #1f1f1f;
   }
