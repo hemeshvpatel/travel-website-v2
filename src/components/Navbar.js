@@ -67,7 +67,7 @@ const Nav = styled.nav`
   justify-content: center;
   align-items: center;
   font-size: 1.25rem;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 999;
 
