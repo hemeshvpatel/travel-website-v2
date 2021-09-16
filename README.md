@@ -1,4 +1,4 @@
-Live Demo:
+Live Demo: https://travel-website-v2.netlify.app/
 
 Hosted with Netlify
 [![Netlify Status](https://api.netlify.com/api/v1/badges/82921e42-3407-46f9-9d34-a7924318b3d0/deploy-status)](https://app.netlify.com/sites/travel-website-v2/deploys)
